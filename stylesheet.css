@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
   font-family: "monotype", "times", sans-serif;
 }
@@ -170,3 +171,207 @@ li li {
   color: white;
   text-decoration: none;
 }
+=======
+html 	{
+	font-family: "monotype", "times", sans-serif;
+	}
+
+/*CLASS SELECTORS*/
+
+.box {
+
+     font-size: 24px;
+     height: 120px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 800px;
+     background-color: rgb(111,78,55);
+
+}
+
+            /*BOXTWO MADE TO SIMPLY HAVE DIFFERENT HEIGHTS*/
+.boxtwo {
+
+     font-size: 24px;
+     height: 600px;
+     background-color: auto ;
+     margin-left: auto;
+     margin-right: auto;
+     width: 800px;
+     padding-bottom: 50px;
+
+
+}
+
+.bigbox {
+
+	margin-left: 160px;
+	margin-right: 160px;
+	background-color: rgb(111,78,55);
+	border-radius: 40px;
+
+
+}
+
+
+
+
+.buttonbox {
+
+     font-size: 24px;
+     height: 120px;
+     background-color: ;
+     margin-left: auto;
+     margin-right: auto;
+     width: 800px;
+     padding-top: 200px;
+
+}
+
+
+.text {
+  color: white;
+  font-family: monospace;
+  text-shadow: 6px 6px 8px rgba(0,0,0);
+  text-align: center;
+}
+
+.textbottom {
+  color: white;
+  font-family: monospace;
+  text-shadow: 6px 6px 8px rgba(0,0,0);
+  text-align: center;
+  margin-top: 50%;
+  margin-bottom: -20%;
+  /*TEXT SHADOW ALLOWS TEXT TO STAND OUT ON BACKGROUND*/
+}
+
+
+
+h1 {
+  color: white;
+  font-size: 64px;
+  text-align: center;
+  text-shadow: 6px 6px 8px rgba(0,0,0);
+  /*TEXT SHADOW ALLOWS TEXT TO STAND OUT ON BACKGROUND*/
+}
+
+
+
+body {
+ background-image: url("images/coffee.jpg");
+ background-color: #cccccc;
+ background-size: cover;
+
+
+
+}
+/*IMAGE ID SELECTORS*/
+
+.imagecenter {
+   margin-left: 20%;
+   margin-right: 40%;
+   margin-top: 30px;
+   width: 480px;
+   border-style: solid;
+   border-radius: 10px;
+   max-width:100%;
+   height: auto;
+	 opacity: 1.0;
+
+}
+
+.imageright {
+   margin-left: 600px;
+   margin-right: auto;
+   width: 450px;
+   border-style: solid;
+   border-radius: 10px;
+   max-width:100%;
+   height:auto;
+   margin-top: -50px;
+}
+
+
+.imagebutton {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100px;
+   max-width:100%;
+   height:auto;
+   color: black;
+}
+
+/*LIST STYLING*/
+ul {
+    list-style-type: square;
+}
+
+ol {
+
+  list-style-type: upper-roman;
+}
+
+li {
+    color: white;
+    text-shadow: 6px 6px 8px rgba(0,0,0);
+    font-family: monospace;
+}
+
+li li {
+    list-style-type: square;
+    font-family: monospace;
+}
+
+/*ID SELECTORS*/
+
+#button {   					/*back to top button*/
+
+	text-align: center;
+	border: none;
+  padding-bottom: 20px;
+  padding-top: 100px;
+
+	}
+
+
+#headcontainer {	/*CONTAINER FOR NAVBAR AND TITLE*/
+	margin-top: 10px;
+  	background-color: rgba(0, 0, 0, 0.0);
+  	text-align: center;
+	border-radius: 40px 40px 15px 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	min-width: 1208px;
+	}
+
+
+#navbar {
+
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	background: rgba(0, 0, 0, 1.0);
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+  height: 48px;
+  font-size: 32px;
+
+
+ }
+#navbar a:link{
+	color: white;
+	text-decoration: none;
+
+}
+#navbar a:hover{           				/*PSEUDO CLASS*/
+	color: blue;
+	text-decoration: none;
+
+}
+#navbar a:visited {
+	color: white;
+	text-decoration: none;
+}
+>>>>>>> 15d707083edeae0799dc40efcdc8ff66db5d44d3
