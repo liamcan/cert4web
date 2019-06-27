@@ -1,199 +1,172 @@
-html 	{
-	font-family: "monotype", "times", sans-serif;
-	}
+html {
+  font-family: "monotype", "times", sans-serif;
+}
 
 /*CLASS SELECTORS*/
-
 .box {
-
-     font-size: 24px;
-     height: 120px;
-     margin-left: auto;
-     margin-right: auto;
-     width: 800px;
-		 
-
+  font-size: 24px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
 }
 
-            /*BOXTWO MADE TO SIMPLY HAVE DIFFERENT HEIGHTS*/
+/*BOXTWO MADE TO SIMPLY HAVE DIFFERENT HEIGHTS*/
 .boxtwo {
-
-     font-size: 24px;
-     height: 600px;
-     background-color: ;
-     margin-left: auto;
-     margin-right: auto;
-     width: 800px;
-     padding-bottom: 50px;
-
-
+  font-size: 24px;
+  height: 600px;
+  background-color: ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding-bottom: 50px;
 }
 
-.bigbox {
-
-	background-color:rgb(0,0,0);opacity:0.6;
-	margin-left: auto;
-	margin-right: auto;
-
+div.bigbox {
+  background-color: rgb(111,78,55);
+  margin-left: 40px;
+  margin-right:40px;
+  border-radius: 25px;
 }
-
-
-
 
 .buttonbox {
-
-     font-size: 24px;
-     height: 120px;
-     background-color: ;
-     margin-left: auto;
-     margin-right: auto;
-     width: 800px;
-     padding-top: 200px;
-
+  font-size: 24px;
+  height: 120px;
+  background-color: ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding-top: 200px;
 }
-
 
 .text {
   color: white;
   font-family: monospace;
-  text-shadow: 6px 6px 8px rgba(0,0,0);
+  text-shadow: 6px 6px 8px rgba(0, 0, 0);
   text-align: center;
 }
 
 .textbottom {
   color: white;
   font-family: monospace;
-  text-shadow: 6px 6px 8px rgba(0,0,0);
+  text-shadow: 6px 6px 8px rgba(0, 0, 0);
   text-align: center;
   margin-top: 50%;
   margin-bottom: -20%;
   /*TEXT SHADOW ALLOWS TEXT TO STAND OUT ON BACKGROUND*/
 }
 
-
-
 h1 {
   color: white;
   font-size: 64px;
   text-align: center;
-  text-shadow: 6px 6px 8px rgba(0,0,0);
+  text-shadow: 6px 6px 8px rgba(0, 0, 0);
   /*TEXT SHADOW ALLOWS TEXT TO STAND OUT ON BACKGROUND*/
 }
 
-
-
 body {
- background-image: url("images/coffee.jpg");
- background-color: #cccccc;
- background-size: cover;
-
-
-
+  background-image: url("images/coffee.jpg");
+  background-color: #cccccc;
+  background-size: cover;
 }
+
 /*IMAGE ID SELECTORS*/
-
 .imagecenter {
-   margin-left: 20%;
-   margin-right: 40%;
-   margin-top: 30px;
-   width: 480px;
-   border-style: solid;
-   border-radius: 10px;
-   max-width:100%;
-   height:auto;
-
+  margin-left: 20%;
+  margin-right: 40%;
+  margin-top: 30px;
+  width: 480px;
+  border-style: solid;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 .imageright {
-   margin-left: 600px;
-   margin-right: auto;
-   width: 450px;
-   border-style: solid;
-   border-radius: 10px;
-   max-width:100%;
-   height:auto;
-   margin-top: -50px;
+  margin-left: 600px;
+  margin-right: auto;
+  width: 450px;
+  border-style: solid;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  margin-top: -50px;
 }
 
-
 .imagebutton {
-   margin-left: auto;
-   margin-right: auto;
-   width: 100px;
-   max-width:100%;
-   height:auto;
-   color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  max-width: 100%;
+  height: auto;
+  color: black;
 }
 
 /*LIST STYLING*/
 ul {
-    list-style-type: square;
+  list-style-type: square;
 }
 
 ol {
-
   list-style-type: upper-roman;
 }
 
 li {
-    color: white;
-    text-shadow: 6px 6px 8px rgba(0,0,0);
-    font-family: monospace;
+  color: white;
+  text-shadow: 6px 6px 8px rgba(0, 0, 0);
+  font-family: monospace;
 }
 
 li li {
-    list-style-type: square;
-    font-family: monospace;
+  list-style-type: square;
+  font-family: monospace;
 }
 
 /*ID SELECTORS*/
-
-#button {   					/*back to top button*/
-
-	text-align: center;
-	border: none;
+#button {
+  /*back to top button*/
+  text-align: center;
+  border: none;
   padding-bottom: 20px;
   padding-top: 100px;
+}
 
-	}
-
-
-#headcontainer {	/*CONTAINER FOR NAVBAR AND TITLE*/
-	margin-top: 10px;
-  	background-color: rgba(0, 0, 0, 0.0);
-  	text-align: center;
-	border-radius: 40px 40px 15px 15px;
-	margin-left: 20px;
-	margin-right: 20px;
-	min-width: 1208px;
-	}
-
+#headcontainer {
+  /*CONTAINER FOR NAVBAR AND TITLE*/
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.0);
+  text-align: center;
+  border-radius: 40px 40px 15px 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-width: 1208px;
+}
 
 #navbar {
-
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	background: rgba(0, 0, 0, 1.0);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background: rgba(0, 0, 0, 1.0);
   margin-left: -8px;
   margin-right: -8px;
   margin-top: -8px;
   height: 48px;
   font-size: 32px;
-
-
- }
-#navbar a:link{
-	color: white;
-	text-decoration: none;
-
+  padding: 8px;
 }
-#navbar a:hover{           				/*PSEUDO CLASS*/
-	color: blue;
-	text-decoration: none;
 
+#navbar a:link {
+  color: white;
+  text-decoration: none;
 }
+
+#navbar a:hover {
+  /*PSEUDO CLASS*/
+  color: blue;
+  text-decoration: none;
+}
+
 #navbar a:visited {
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
