@@ -89,6 +89,22 @@ div.bigbox {
   /*TEXT SHADOW ALLOWS TEXT TO STAND OUT ON BACKGROUND*/
 }
 
+
+/*STYLING a TAG AND a TAG HOVER*/
+
+a {
+ font-size: 1em;
+ color: white;
+
+}
+
+a:hover {
+
+	color: blue;
+	font-style: italic;
+}
+
+
 h1 {
   color: white;
   font-size: 64px;
