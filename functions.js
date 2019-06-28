@@ -65,10 +65,12 @@ var imgState = 0;
 
 var imgTag = document.getElementById("imgClickAndChange");
 
-imgTag.addEventListener("click", function(event) {
-  imgState = (++imgState % images.length);
-  event.target.src = images[imgState];
-});
+if ( imgTag ) {
+  imgTag.addEventListener("click", function(event) {
+    imgState = (++imgState % images.length);
+    event.target.src = images[imgState];
+  });
+}
 
 //Date script to display current date//
 
