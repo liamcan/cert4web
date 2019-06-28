@@ -29,6 +29,54 @@
       <img class="imagecenter" src="images/map.png" alt="Image Not Found" />
     </div>
 
+    <p class="text">
+Sign up for regular alerts about new deals or items, it's time to be on notification squad fam
+</p>
+<div class="contentbox">
+    <article>
+      <form name = "mailform" onsubmit="return validateForm()">
+  <script>
+function validateForm() {
+var x = document.forms["mailform"]["nameinput"].value;
+var y = document.forms["mailform"]["emailinput"].value;
+if (x == "") {
+  alert("Name must be filled out");
+  return false;
+}
+if (y == "") {
+alert("Please enter email");
+return false;
+}
+}
+</script>
+        <fieldset id="contactinfo">
+          <legend>Contact Info</legend>
+          <label for="nameinput">
+            Name
+            <input class="grey" type="text" id="nameinput" onfocusin="focusName()" onfocusout="unFocusName()" name="name" placeholder="First and Last name" />
+          </label>
+
+          <label for="emailinput">
+            Email
+            <input class="grey" type="email" id="emailinput" onfocusin="focusEmail()" onfocusout="unFocusEmail()" name="email" placeholder="address@example.com" />
+          </label>
+
+        </fieldset>
+
+        <fieldset id="additionalinfo">
+          <legend>We are open to constructive criticsm, please tell us how we can improve</legend>
+
+
+            <textarea id="notes" name="notes" onfocusin="focusComment()" onfocusout="unFocusComment()" rows="4" cols="60" placeholder="Leave Him a compliment!"></textarea>
+
+        </fieldset>
+        <fieldset id="submitbutton">
+          <input id="button" type="submit" value="Submit">
+        </fieldset>
+      </form>
+    </article>
+</div>
+
 
     <div id="button">
       <a href="findus.html#navbar">
