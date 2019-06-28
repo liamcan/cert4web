@@ -11,25 +11,25 @@ html {
   width: 800px;
 }
 
-.contentbox { 			/*main container for content*/
-	color: white;
-	background-color: rgba(0, 0, 0, 0.4);
-	border: none;
-	border-radius: 15px;
-	min-width: 908px;
-	padding: 10px;
-	margin-left: 150px;
-	margin-right: 150px;
-	text-align: center;
-	}
+.formbox {
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 15px;
+  min-width: 20em;
+  padding: 1em;
+  margin-left: 5em;
+  margin-right: 5em;
+  text-align: center;
+}
 
 .footer {
-
- padding: 1em;
- margin: 1em;
- margin-top: 2em;
- text-align: center;
- padding-top: 2em;
+  padding: 1em;
+  margin: 1em;
+  margin-top: 2em;
+  text-align: center;
+  padding-top: 2em;
 }
 
 /*BOXTWO MADE TO SIMPLY HAVE DIFFERENT HEIGHTS*/
@@ -43,25 +43,24 @@ html {
 }
 
 div.bigbox {
-  background-color: rgb(111,78,55);
+  background-color: rgb(111, 78, 55);
   margin-left: 40px;
-  margin-right:40px;
+  margin-right: 40px;
   border-radius: 25px;
-	font-size: 2em;
-	padding: 1em;
-	padding-top: 0em;
-	border-color: black
+  font-size: 2em;
+  padding: 1em;
+  padding-top: 0em;
+  border-color: black
 }
 
 .bigbox2 {
-
-	background-color: rgb(111,78,55);
+  background-color: rgb(111, 78, 55);
   margin-left: 40px;
-  margin-right:40px;
+  margin-right: 40px;
   border-radius: 25px;
-	font-size: 2em;
-	padding: 1em;
-	padding-top: 0em;
+  font-size: 2em;
+  padding: 1em;
+  padding-top: 0em;
 }
 
 .buttonbox {
@@ -79,10 +78,8 @@ div.bigbox {
   font-family: monospace;
   text-shadow: 6px 6px 8px rgba(0, 0, 0);
   text-align: center;
-	padding: 1em;
+  padding: 1em;
 }
-
-
 
 .textbottom {
   color: white;
@@ -90,25 +87,19 @@ div.bigbox {
   text-shadow: 6px 6px 8px rgba(0, 0, 0);
   text-align: center;
   margin-top: 5em;
-
   /*TEXT SHADOW ALLOWS TEXT TO STAND OUT ON BACKGROUND*/
 }
 
-
 /*STYLING a TAG AND a TAG HOVER*/
-
 a {
- font-size: 1em;
- color: white;
-
+  font-size: 1em;
+  color: white;
 }
 
 a:hover {
-
-	color: blue;
-	font-style: italic;
+  color: blue;
+  font-style: italic;
 }
-
 
 h1 {
   color: white;
@@ -126,13 +117,13 @@ body {
 
 /*IMAGE ID SELECTORS*/
 .imagecenter {
-	margin: 1em;
+  margin: 1em;
   width: 480px;
   border-style: solid;
   border-radius: 10px;
   max-width: 100%;
   height: auto;
-	border-color: black;
+  border-color: black;
 }
 
 .imageright {
@@ -154,6 +145,17 @@ body {
   height: auto;
   color: black;
 }
+
+.button {
+
+padding: 1em;
+margin: 1em;
+border-radius: 35px;
+
+
+
+}
+
 
 /*LIST STYLING*/
 ul {
@@ -180,8 +182,19 @@ li li {
   /*back to top button*/
   text-align: center;
   border: none;
-  padding-bottom: 20px;
-  padding-top: 100px;
+  padding-bottom: 1em;
+  padding-top: 2em;
+	height: 4em;
+
+
+}
+
+#button2{
+
+  text-align: center;
+  border: none;
+	color: white;
+	background-color: blue;
 }
 
 #headcontainer {
@@ -225,9 +238,8 @@ li li {
 }
 
 #time {
-color: white;
-font-size: 3em;
-padding: 1em;
-margin: 1em;
-
+  color: white;
+  font-size: 3em;
+  padding: 1em;
+  margin: 1em;
 }
