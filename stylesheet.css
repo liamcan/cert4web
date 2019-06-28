@@ -12,7 +12,6 @@ html {
 }
 
 .formbox {
-
   color: white;
   background-color: rgba(0, 0, 0, 0.4);
   border: none;
@@ -31,8 +30,6 @@ html {
   text-align: center;
   padding-top: 2em;
 }
-
-
 
 div.bigbox {
   background-color: rgb(111, 78, 55);
@@ -115,21 +112,18 @@ body {
   max-width: 100%;
   height: auto;
   border-color: black;
-
 }
 
 .imagecenter2 {
   margin-left: 30%;
-	margin-right: 25%;
+  margin-right: 25%;
   width: 480px;
   border-style: solid;
   border-radius: 10px;
   max-width: 100%;
   height: auto;
   border-color: black;
-	padding-top: 0em;
-
-
+  padding-top: 0em;
 }
 
 .imageright {
@@ -140,7 +134,7 @@ body {
   border-radius: 10px;
   max-width: 100%;
   height: auto;
-	margin-top: 0em;
+  margin-top: 0em;
 }
 
 .imagebutton {
@@ -153,16 +147,10 @@ body {
 }
 
 .button {
-
-padding: 1em;
-margin: 1em;
-border-radius: 35px;
-
-
-
+  padding: 1em;
+  margin: 1em;
+  border-radius: 35px;
 }
-
-
 
 /*LIST STYLING*/
 ul {
@@ -191,17 +179,14 @@ li li {
   border: none;
   padding-bottom: 1em;
   padding-top: 2em;
-	height: 4em;
-
-
+  height: 4em;
 }
 
-#button2{
-
+#button2 {
   text-align: center;
   border: none;
-	color: white;
-	background-color: blue;
+  color: white;
+  background-color: blue;
 }
 
 #headcontainer {
@@ -249,7 +234,11 @@ li li {
   font-size: 2em;
   padding: 1em;
   margin: 1em;
-	font-family: serif;
-	text-shadow: none;
-	color: white;
+  font-family: serif;
+  text-shadow: none;
+  color: white;
+}
+
+.grey {
+  background-color: #E1E1E1;
 }

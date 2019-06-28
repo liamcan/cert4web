@@ -18,13 +18,12 @@
   </nav>
 
   <div class="bigbox">
+  
     <h1>Hot Bean Café</h1>
-
-
 
     <p class="text">Hot Bean Cafe' is situated on the corner of Cramer and Bruce st</p>
 
-    <!--IMAGE THREE -->
+    <!--IMAGES -->
 
     <img class="imagecenter2" src="images/map.png" alt="Image Not Found" />
 
@@ -52,13 +51,14 @@
           <fieldset id="additionalinfo">
             <legend>We are open to constructive criticsm, please tell us how we can improve</legend>
 
-
-            <textarea id="notes" name="notes" onfocusin="focusComment()" onfocusout="unFocusComment()" rows="4" cols="60" placeholder="Please tell us how we can improve"></textarea>
+            <textarea class="grey" id="notes" name="notes" onfocusin="focusComment()" onfocusout="unFocusComment()" rows="4" cols="60" placeholder="Please tell us how we can improve"></textarea>
 
           </fieldset>
+
           <fieldset id="submitbutton">
             <input id="button2" type="submit" value="Submit">
           </fieldset>
+
         </form>
       </article>
     </div>
@@ -75,6 +75,32 @@
   </div>
 
   <script>
+    // ONFOCUS FUNCTIONS//
+
+    function focusName() {
+      document.getElementById("nameinput").style.background = "white"; /*BG color change fucntion for nameinput*/
+    }
+
+    function unFocusName() {
+      document.getElementById("nameinput").style.background = "#E1E1E1"; /*BG color change fucntion for nameinput*/
+    }
+
+    function focusEmail() {
+      document.getElementById("emailinput").style.background = "white"; /*BG color change fucntion for emailinput*/
+    }
+
+    function unFocusEmail() {
+      document.getElementById("emailinput").style.background = "#E1E1E1"; /*BG color change fucntion for emailinput*/
+    }
+
+    function focusComment() {
+      document.getElementById("notes").style.background = "white"; /*BG color change function for comments*/
+    }
+
+    function unFocusComment() {
+      document.getElementById("notes").style.background = "#E1E1E1";
+    }
+
     function validateForm() {
       var x = document.forms["mailform"]["nameinput"].value;
       var y = document.forms["mailform"]["emailinput"].value;

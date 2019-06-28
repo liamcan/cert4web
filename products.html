@@ -17,55 +17,61 @@
   </nav>
 
   <div class="bigbox">
-  <h1>Hot Bean Café</h1>
-  <div class="box">
-    <p class="text">Hot Bean Cafe' offers a variety of products, from baked goods to locally sourced coffee</p>
-    <!--UNORDERED LIST -->
-    <ul>
-      <li>Coffee</li>
+    <h1>Hot Bean Café</h1>
+    <div class="box">
+      <p class="text">Hot Bean Cafe' offers a variety of products, from baked goods to locally sourced coffee</p>
+      <!--UNORDERED LIST -->
       <ul>
-        <li>Flat White</li>
-        <li>latte</li>
-        <li>Espresso</li>
-        <li>Mocha</li>
-      </ul>
-      <li>Baked Goods
+        <li>Coffee
         <ul>
-          <li>Crossaint</li>
-          <li>Pies</li>
-          <li>Caramel Slice</li>
-          <li>Vanilla Slice</li>
+          <li>Flat White</li>
+          <li>latte</li>
+          <li>Espresso</li>
+          <li>Mocha</li>
         </ul>
-      </li>
-    </ul>
-  </div>
-  <!--IMAGE TWO -->
+        </li>
+        <li>Baked Goods
+          <ul>
+            <li>Crossaint</li>
+            <li>Pies</li>
+            <li>Caramel Slice</li>
+            <li>Vanilla Slice</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!--IMAGE TWO -->
 
     <img class="imageright" src="images/barista.jpg" alt="Image Not Found">
 
 
-  <div class="text">
-	<p id="time" ></p>
-	<button type="button" onclick="toggle_visibility()">hide/show date of our last shipment of quality beans</button>
-	<script>
-	var d = new Date();
-	document.getElementById("time").innerHTML = d.toDateString();
-		function toggle_visibility() {
-		   var e = document.getElementById("time");
-		   if(e.style.display == 'block')
-			  e.style.display = 'none';
-		   else
-			  e.style.display = 'block';
-		}
-	</script>
-	</div>
+    <div class="text">
+      <p id="time"></p>
+      <button type="button" onclick="toggle_visibility()">hide/show date of our last shipment of quality beans</button>
+    </div>
 
-  <div id="button">
-    <a href="products.html#navbar">
-      <img class="imagebutton" src="images/topbutton.png" alt="Back to top" />
-    </a>
+    <div id="button">
+      <a href="products.html#navbar">
+        <img class="imagebutton" src="images/topbutton.png" alt="Back to top" />
+      </a>
+    </div>
+
   </div>
-</div>
+
+  <script>
+    var d = new Date();
+    document.getElementById("time").innerHTML = d.toDateString();
+
+    function toggle_visibility() {
+      var e = document.getElementById("time");
+      if (e.style.display == 'block')
+        e.style.display = 'none';
+      else
+        e.style.display = 'block';
+    }
+  </script>
+
 </body>
 
 </html>
