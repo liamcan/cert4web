@@ -21,48 +21,47 @@
     <h1>Hot Bean Café</h1>
 
 
-    <div class="box">
-      <p class="text">Hot Bean Cafe' is situated on the corner of Cramer and Bruce st</p>
-    </div>
+
+    <p class="text">Hot Bean Cafe' is situated on the corner of Cramer and Bruce st</p>
+
     <!--IMAGE THREE -->
-    <div class="boxtwo">
-      <img class="imagecenter" src="images/map.png" alt="Image Not Found" />
-    </div>
+
+    <img class="imagecenter2" src="images/map.png" alt="Image Not Found" />
 
     <p class="text">
-Sign up for regular alerts about new deals or items, it's time to be on notification squad fam
-</p>
-<div class="formbox">
-    <article>
-      <form name = "mailform" onsubmit="return validateForm()">
+      Sign up for regular alerts about new deals or items, it's time to be on notification squad fam
+    </p>
+    <div class="formbox">
+      <article>
+        <form name="mailform" onsubmit="return validateForm()">
 
-        <fieldset id="contactinfo">
-          <legend>Contact Info</legend>
-          <label for="nameinput">
-            Name
-            <input class="grey" type="text" id="nameinput" onfocusin="focusName()" onfocusout="unFocusName()" name="name" placeholder="First and Last name" />
-          </label>
+          <fieldset id="contactinfo">
+            <legend>Contact Info</legend>
+            <label for="nameinput">
+              Name
+              <input class="grey" type="text" id="nameinput" onfocusin="focusName()" onfocusout="unFocusName()" name="name" placeholder="First and Last name" />
+            </label>
 
-          <label for="emailinput">
-            Email
-            <input class="grey" type="email" id="emailinput" onfocusin="focusEmail()" onfocusout="unFocusEmail()" name="email" placeholder="address@example.com" />
-          </label>
+            <label for="emailinput">
+              Email
+              <input class="grey" type="email" id="emailinput" onfocusin="focusEmail()" onfocusout="unFocusEmail()" name="email" placeholder="address@example.com" />
+            </label>
 
-        </fieldset>
+          </fieldset>
 
-        <fieldset id="additionalinfo">
-          <legend>We are open to constructive criticsm, please tell us how we can improve</legend>
+          <fieldset id="additionalinfo">
+            <legend>We are open to constructive criticsm, please tell us how we can improve</legend>
 
 
             <textarea id="notes" name="notes" onfocusin="focusComment()" onfocusout="unFocusComment()" rows="4" cols="60" placeholder="Please tell us how we can improve"></textarea>
 
-        </fieldset>
-        <fieldset id="submitbutton">
-          <input id="button2" type="submit" value="Submit">
-        </fieldset>
-      </form>
-    </article>
-</div>
+          </fieldset>
+          <fieldset id="submitbutton">
+            <input id="button2" type="submit" value="Submit">
+          </fieldset>
+        </form>
+      </article>
+    </div>
 
 
     <div id="button">
@@ -76,19 +75,19 @@ Sign up for regular alerts about new deals or items, it's time to be on notifica
   </div>
 
   <script>
-function validateForm() {
-var x = document.forms["mailform"]["nameinput"].value;
-var y = document.forms["mailform"]["emailinput"].value;
-if (x == "") {
-  alert("Name must be filled out");
-  return false;
-}
-if (y == "") {
-alert("Please enter email");
-return false;
-}
-}
-</script>
+    function validateForm() {
+      var x = document.forms["mailform"]["nameinput"].value;
+      var y = document.forms["mailform"]["emailinput"].value;
+      if (x == "") {
+        alert("Name must be filled out");
+        return false;
+      }
+      if (y == "") {
+        alert("Please enter email");
+        return false;
+      }
+    }
+  </script>
 
 </body>
 
