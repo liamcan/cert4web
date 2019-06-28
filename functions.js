@@ -1,10 +1,9 @@
-
 function countdownfunction() {
-// Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+  // Set the date we're counting down to
+  var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
 
-// Update the count down every 1 second
-var countdownfunction = setInterval(function() {
+  // Update the count down every 1 second
+  var countdownfunction = setInterval(function() {
 
     // Get todays date and time
     var now = new Date().getTime();
@@ -19,26 +18,26 @@ var countdownfunction = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Output the result in an element with id="demo"
-    document.getElementById("countdown1").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
+    document.getElementById("countdown1").innerHTML = days + "d " + hours + "h " +
+      minutes + "m " + seconds + "s ";
 
     // If the count down is over, write some text
     if (distance < 0) {
-        clearInterval(countdownfunction);
-        document.getElementById("countdown1").innerHTML = "EXPIRED";
+      clearInterval(countdownfunction);
+      document.getElementById("countdown1").innerHTML = "EXPIRED";
     }
-}, 10);
+  }, 10);
 
 
-function {
-var images = ["images/art.jpg", "images/coffee2.jpg"]
+  function {
+    var images = ["images/art.jpg", "images/coffee2.jpg"]
 
-var imgState = 0;
+    var imgState = 0;
 
-var imgTag = document.getElementById("imgClickAndChange");
+    var imgTag = document.getElementById("imgClickAndChange");
 
-imgTag.addEventListener("click", function (event) {
-  imgState = (++imgState % 3);
-	event.target.src = images[imgState];
-});
-}
+    imgTag.addEventListener("click", function(event) {
+      imgState = (++imgState % 3);
+      event.target.src = images[imgState];
+    });
+  }
