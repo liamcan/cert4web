@@ -28,3 +28,17 @@ var countdownfunction = setInterval(function() {
         document.getElementById("countdown1").innerHTML = "EXPIRED";
     }
 }, 10);
+
+
+function {
+var images = ["images/art.jpg", "images/coffee2.jpg"]
+
+var imgState = 0;
+
+var imgTag = document.getElementById("imgClickAndChange");
+
+imgTag.addEventListener("click", function (event) {
+  imgState = (++imgState % 3);
+	event.target.src = images[imgState];
+});
+}
