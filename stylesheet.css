@@ -46,6 +46,15 @@ div.bigbox {
   text-align: center;
 }
 
+.formtext {
+
+	  color: white;
+	  font-family: monospace;
+margin-top: 20em;
+
+	}
+}
+
 .textbottom {
   color: white;
   font-family: monospace;
@@ -303,25 +312,41 @@ body {
    color: black;
 }
 
+.contentbox {
+color: white;
+background-color: rgb(111,78,55);
+border-radius: 40px;
+margin: 1em;
+padding: 1em;
+margin-top: 20em;
+
+}
+
 /*LIST STYLING*/
 ul {
     list-style-type: square;
+		padding: 1em;
+		margin: 1em;
 }
 
 ol {
 
   list-style-type: upper-roman;
+	padding: 1em;
+	margin: 1em;
 }
 
 li {
     color: white;
     text-shadow: 6px 6px 8px rgba(0,0,0);
     font-family: monospace;
+
 }
 
 li li {
     list-style-type: square;
     font-family: monospace;
+
 }
 
 /*ID SELECTORS*/

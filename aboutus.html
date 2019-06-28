@@ -15,7 +15,7 @@
     <a href="products.html">Products</a> |
     <a href="findus.html">Find Us</a>
   </nav>
-k
+  k
   <div class="bigbox">
     <h1>Hot Bean Café</h1>
     <div class="box">
@@ -29,6 +29,59 @@ k
         <li>Run an ethical and sustainable business</li>
         <li>Make the customers day</li>
       </ol>
+    </div>
+
+
+    <!--Java form -->
+
+    <p class="text">
+      Sign up for His mailing list!<br />
+      Regular updates with cute photos, news and offers!
+    </p>
+    <div class="contentbox">
+      <article>
+        <form name="mailform" onsubmit="return validateForm()">
+          <script>
+            function validateForm() {
+              var x = document.forms["mailform"]["nameinput"].value;
+              var y = document.forms["mailform"]["emailinput"].value;
+              if (x == "") {
+                alert("Name must be filled out");
+                return false;
+              }
+              if (y == "") {
+                alert("Please enter email");
+                return false;
+              }
+            }
+          </script>
+          <fieldset id="contactinfo">
+            <legend>Contact Info</legend>
+            <label for="nameinput">
+              Name
+              <input class="grey" type="text" id="nameinput" onfocusin="focusName()" onfocusout="unFocusName()" name="name" placeholder="First and Last name" />
+            </label>
+
+            <label for="emailinput">
+              Email
+              <input class="grey" type="email" id="emailinput" onfocusin="focusEmail()" onfocusout="unFocusEmail()" name="email" placeholder="address@example.com" />
+            </label>
+
+          </fieldset>
+
+          <fieldset id="additionalinfo">
+            <legend>Optional Comments</legend>
+
+
+            <textarea id="notes" name="notes" onfocusin="focusComment()" onfocusout="unFocusComment()" rows="4" cols="60" placeholder="Leave Him a compliment!"></textarea>
+
+          </fieldset>
+          <fieldset id="submitbutton">
+            <input id="button" type="submit" value="Submit">
+          </fieldset>
+        </form>
+      </article>
+
       <!--BUTTON -->
     </div>
     <div class="buttonbox">
