@@ -29,6 +29,8 @@ function countdownfunction() {
   }, 10);
 }
 
+// Image clicker function that cycles 3 images//
+
 var images = ["images/art.jpg", "images/coffee1.jpg", "images/coffee2.jpg"]
 
 var imgState = 0;
@@ -39,3 +41,8 @@ imgTag.addEventListener("click", function(event) {
   imgState = (++imgState % images.length);
   event.target.src = images[imgState];
 });
+
+//Date script to display current date//
+
+var d = new Date();													
+document.getElementById("time").innerHTML = d.toDateString();

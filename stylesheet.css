@@ -46,6 +46,7 @@ div.bigbox {
   text-align: center;
 }
 
+
 .textbottom {
   color: white;
   font-family: monospace;
@@ -169,6 +170,14 @@ li li {
 #navbar a:visited {
   color: white;
   text-decoration: none;
+}
+
+#time {
+color: white;
+font-size: 3em;
+padding: 1em;
+margin: 1em;
+
 }
 
 

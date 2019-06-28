@@ -44,6 +44,22 @@
     <img class="imageright" src="images/barista.jpg" alt="Image Not Found">
   </div>
 
+  <div class="footer">
+	<p id="time" ></p>
+	<button type="button" onclick="toggle_visibility()">Show date of our last shipment of quality beans</button>
+	<script>
+	var d = new Date();
+	document.getElementById("time").innerHTML = d.toDateString();
+		function toggle_visibility() {
+		   var e = document.getElementById("time");
+		   if(e.style.display == 'block')
+			  e.style.display = 'none';
+		   else
+			  e.style.display = 'block';
+		}
+	</script>
+	</div>
+
   <div id="button">
     <a href="products.html#navbar">
       <img class="imagebutton" src="images/topbutton.png" alt="Back to top" />
