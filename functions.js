@@ -27,17 +27,15 @@ function countdownfunction() {
       document.getElementById("countdown1").innerHTML = "EXPIRED";
     }
   }, 10);
+}
 
+var images = ["images/art.jpg", "images/coffee1.jpg", "images/coffee2.jpg"]
 
-  function {
-    var images = ["images/art.jpg", "images/coffee2.jpg"]
+var imgState = 0;
 
-    var imgState = 0;
+var imgTag = document.getElementById("imgClickAndChange");
 
-    var imgTag = document.getElementById("imgClickAndChange");
-
-    imgTag.addEventListener("click", function(event) {
-      imgState = (++imgState % 3);
-      event.target.src = images[imgState];
-    });
-  }
+imgTag.addEventListener("click", function(event) {
+  imgState = (++imgState % images.length);
+  event.target.src = images[imgState];
+});
