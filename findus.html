@@ -35,20 +35,7 @@ Sign up for regular alerts about new deals or items, it's time to be on notifica
 <div class="contentbox">
     <article>
       <form name = "mailform" onsubmit="return validateForm()">
-  <script>
-function validateForm() {
-var x = document.forms["mailform"]["nameinput"].value;
-var y = document.forms["mailform"]["emailinput"].value;
-if (x == "") {
-  alert("Name must be filled out");
-  return false;
-}
-if (y == "") {
-alert("Please enter email");
-return false;
-}
-}
-</script>
+
         <fieldset id="contactinfo">
           <legend>Contact Info</legend>
           <label for="nameinput">
@@ -87,6 +74,22 @@ return false;
 
 
   </div>
+
+  <script>
+function validateForm() {
+var x = document.forms["mailform"]["nameinput"].value;
+var y = document.forms["mailform"]["emailinput"].value;
+if (x == "") {
+  alert("Name must be filled out");
+  return false;
+}
+if (y == "") {
+alert("Please enter email");
+return false;
+}
+}
+</script>
+
 </body>
 
 
